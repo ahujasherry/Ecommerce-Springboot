@@ -1,4 +1,48 @@
-## E-Commerce Microservices project using Springboot and Spring Cloud
+## 🛍️ Online Shopping Application Using Microservices with Spring Boot and Spring Cloud
+
+## 📜 Overview
+This project demonstrates building a simple online shopping application using microservices architecture with Spring Boot and Spring Cloud. The application encompasses various critical aspects of microservices, including service discovery, centralized configuration, distributed tracing, event-driven architecture, centralized logging, circuit breakers, and secure microservice communication using Keycloak.
+
+## 🏗️ Project Structure
+The project consists of the following microservices:
+
+- 🛒 Product Service: Create and view products, acts as the product catalog  
+- 📦 Order Service: Handles product orders  
+- 📊 Inventory Service: Checks if a product is in stock  
+- 🔔 Notification Service: Sends notifications after an order is placed.
+
+
+## 🛠️ Key Components and Tools
+- 🔍 Service Discovery: Eureka Server is used for service registration and discovery  
+- 🗂️ Centralized Configuration: Spring Cloud Config Server is used to manage external configurations  
+- 🕵️‍♂️ Distributed Tracing: Zipkin is used to trace requests across microservices  
+- 📨 Event-Driven Architecture: Apache Kafka is used for asynchronous messaging  
+- 📈 Monitoring: Prometheus and Grafana are used for monitoring  
+- 🔌 Circuit Breaker: Resilience4J is used to implement circuit breakers  
+- 🔐 Security: Keycloak is used for securing microservices  
+- 🐳 Dockerization: Jib library is used to dockerize the application  
+- 📦 Container Orchestration: Docker Compose is used for managing multi-container Docker applications.
+
+## 🔄 Services Interaction
+Order Service, Inventory Service, and Notification Service interact with each other to process orders, manage inventory, and send notifications.
+API Gateway handles incoming requests and routes them to the appropriate microservices.
+Auth Server (Keycloak) manages authentication and authorization.
+
+## 💻 Tech Stack Used
+- Spring Boot: For building individual microservices  
+- Spring Cloud: For integrating and managing distributed systems  
+- MongoDB: For Product Service database  
+- MySQL: For Order Service and Inventory Service databases  
+- Kafka: For asynchronous communication  
+- Eureka Server: For service discovery  
+- Config Server: For centralized configuration  
+- Zipkin: For distributed tracing  
+- ELK Stack: For logging and monitoring  
+- Resilience4J: For circuit breaker implementation  
+- Keycloak: For securing microservices  
+- Jib: For containerizing the application  
+- Docker Compose: For orchestrating multi-container Docker applications  
+
 
 ![image](https://github.com/ahujasherry/Ecommerce-Springboot/assets/72737856/b97ad474-8013-4937-85c2-96d8a2125716)
 
