@@ -1,5 +1,14 @@
 ## 🛍️ Online Shopping Application Using Microservices with Spring Boot and Spring Cloud
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Project Structure](#projectstructure)
+- [Key Components and Tools](#keycomponentsandtools)
+- [Services Interaction](#servicesinteraction)
+- [Tech Stack](#techstack)
+- [Architecture and component diagrams](#architectureandcomponentdiagrams)
+
 ## 📜 Overview
 This project demonstrates building a simple online shopping application using microservices architecture with Spring Boot and Spring Cloud. The application encompasses various critical aspects of microservices, including service discovery, centralized configuration, distributed tracing, event-driven architecture, centralized logging, circuit breakers, and secure microservice communication using Keycloak.
 
@@ -28,7 +37,7 @@ Order Service, Inventory Service, and Notification Service interact with each ot
 API Gateway handles incoming requests and routes them to the appropriate microservices.
 Auth Server (Keycloak) manages authentication and authorization.
 
-## 💻 Tech Stack Used
+## 💻 Tech Stack
 - Spring Boot: For building individual microservices  
 - Spring Cloud: For integrating and managing distributed systems  
 - MongoDB: For Product Service database  
@@ -43,6 +52,7 @@ Auth Server (Keycloak) manages authentication and authorization.
 - Jib: For containerizing the application  
 - Docker Compose: For orchestrating multi-container Docker applications  
 
+## 💻 Architecture and component diagrams 
 
 ![image](https://github.com/ahujasherry/Ecommerce-Springboot/assets/72737856/b97ad474-8013-4937-85c2-96d8a2125716)
 
@@ -73,4 +83,8 @@ Auth Server (Keycloak) manages authentication and authorization.
 
 1. Run `mvn clean verify -DskipTests` by going inside each folder to build the applications.
 2. After that run `mvn spring-boot:run` by going inside each folder to start the applications.
+
+## Contact
+
+Created by [@ahujasherry](https://github.com/ahujasherry) - feel free to contact me!
 
