@@ -2,12 +2,12 @@
 
 ## Table of Contents
 
-- [Overview](#overview)
-- [Project Structure](#projectstructure)
-- [Key Components and Tools](#keycomponentsandtools)
-- [Services Interaction](#servicesinteraction)
-- [Tech Stack](#techstack)
-- [Architecture and component diagrams](#architectureandcomponentdiagrams)
+- [Overview](#-overview)
+- [Project Structure](#-projectstructure)
+- [Key Components and Tools](#-keycomponentsandtools)
+- [Services Interaction](#-servicesinteraction)
+- [Tech Stack](#-techstack)
+- [Architecture and component diagrams](#-architectureandcomponentdiagrams)
 
 ## 📜 Overview
 This project demonstrates building a simple online shopping application using microservices architecture with Spring Boot and Spring Cloud. The application encompasses various critical aspects of microservices, including service discovery, centralized configuration, distributed tracing, event-driven architecture, centralized logging, circuit breakers, and secure microservice communication using Keycloak.
