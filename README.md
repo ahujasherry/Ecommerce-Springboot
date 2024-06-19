@@ -10,7 +10,7 @@
 - [Architecture and component diagrams]
 
 ## 📜 Overview
-This project demonstrates building a simple online shopping application using microservices architecture with Spring Boot and Spring Cloud. The application encompasses various critical aspects of microservices, including service discovery, centralized configuration, distributed tracing, event-driven architecture, centralized logging, circuit breakers, and secure microservice communication using Keycloak.
+This project demonstrates building a simple online shopping application using microservices architecture with Spring Boot and Spring Cloud. The application encompasses various critical aspects of microservices, including service discovery, centralized configuration, distributed tracing, event-driven architecture, centralized logging, circuit breakers, and secure microservice communication using Keycloak. The core purpose is not the complexity of the app but to integrate and master microservices concepts
 
 ## 🏗️ Project Structure
 The project consists of the following microservices:
